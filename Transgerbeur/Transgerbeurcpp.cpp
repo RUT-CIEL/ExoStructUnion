@@ -53,7 +53,13 @@ int main()
 	c2.etat = palette;
 	tabCasier[0] = c1;
 	tabCasier[2] = c2;
-	cout << sizeof(c1) << " ; " << sizeof(c2) << " ; " << sizeof(ro1) << " ; " << sizeof(pa1) << " ; " << sizeof(etatC1);
+	cout << "ro1 : " << sizeof(ro1) << endl;
+	cout << "pa1 : " << sizeof(pa1) << endl;
+	cout << "etatC1 : " << sizeof(etatC1) << endl;
+	cout << "cont : " << sizeof(cont) << endl;
+	cout << "c1 : " << sizeof(c1) << endl;
+	cout << "c2 : " << sizeof(c2) << endl;
+	cout << "tabCasier : " << sizeof(tabCasier) << endl;
 
 
 }
